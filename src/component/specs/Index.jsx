@@ -1,7 +1,7 @@
 import { Specs } from "./Specs";
 import "./specs.css";
 
-export default function SpaceIndex() {
+export default function SpecsIndex() {
   return (
     <div className="specs-container">
       {/* ADD NRE SPECS */}

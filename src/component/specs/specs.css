@@ -65,6 +65,12 @@
     display: flex;
 }
 
+
+.specs-container .specs-box.done .specs-content-layout,
+.specs-container .specs-box.done .specs-date {
+    opacity: .3;
+}
+
 .specs-container .specs-box .specs-date {
     font-size: .8rem;
     margin: 1rem 0;

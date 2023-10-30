@@ -28,7 +28,7 @@ const Blog = () => (
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={import.meta.env.DEV ? "/" : "/specs/"}>
         <NavBar />
 
         <div className="pages">

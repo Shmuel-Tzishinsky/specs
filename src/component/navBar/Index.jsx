@@ -4,7 +4,7 @@ export default function Index() {
   const nav = [
     {
       href: "/",
-      name: "Space",
+      name: "Specs",
       icon: "-",
     },
     {

@@ -26,16 +26,16 @@ export function Specs() {
   //   });
   // };
 
-  // const editSpecs = (space) => {
+  // const editSpecs = (specs) => {
   //   dispatch({
   //     type: LOADING_SPECS,
   //   });
   //   dispatch({
   //     type: EDIT_SPECS,
   //     payload: {
-  //       complete: space.complete,
+  //       complete: specs.complete,
   //       title: new Date().getTime(),
-  //       id: space.id,
+  //       id: specs.id,
   //     },
   //   });
   // };
