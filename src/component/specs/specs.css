@@ -3,13 +3,10 @@
     --c: #21213E;
     --c: #121231;
     --x: #0A0A1B;
-    --c: #0A0A1B;
 }
 
 .specs-container {
-    width: 100vw;
-    float: right;
-    min-width: 800px;
+    width: 100%;
     min-height: 100vh;
     background: #21213E;
     color: white;
@@ -18,7 +15,7 @@
 
 /* ADD NEW SPECS */
 .add-new-spec {
-    margin: 3rem 3rem 1rem 105px;
+    padding: 3rem 3rem 1rem 105px;
 }
 
 .add-new-spec button {
@@ -166,6 +163,7 @@
     font-size: 1.4rem;
     font-family: monospace;
     font-weight: bold;
+    line-height: 1;
 }
 
 

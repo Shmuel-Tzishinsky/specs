@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: #21213E;
+}
+
+.pages {
+    width: calc(100% - 170px);
+    height: 100%;
+
+}
