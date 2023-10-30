@@ -16,40 +16,45 @@
 /* ADD NEW SPECS */
 .add-new-spec {
     padding: 3rem 3rem 1rem 105px;
+    display: flex;
 }
 
-.add-new-spec button {
+.add-new-spec .add-a-new-specs-link {
     background-color: #F4C927;
     color: #0A0A1B;
     display: flex;
     border: 2px solid #F4C927;
     border-radius: 3px;
     padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 500;
 }
 
-.add-new-spec button p {
-    padding: .4rem .5rem;
-    font-size: .75rem;
-    font-weight: 500;
+.add-new-spec .add-a-new-specs-link p {
+    padding: 0.4rem 1.5rem 0.4rem 0.5rem;
+    line-height: 2.3;
     margin: 0;
 }
 
-.add-new-spec button .icon {
+.add-new-spec .add-a-new-specs-link .icon {
     padding: 0;
     background: #121231;
     color: #FFEB3B;
-    width: 40px;
-    height: 27px;
+    width: 65px;
+    height: 40px;
     margin: 0;
     display: grid;
-    font-size: 1.2rem;
+    border-radius: 3px;
+    font-size: 1.6rem;
     place-items: center;
     cursor: pointer;
-    transition: all 35ms ease-in-out;
+    transition: all 35ms ease-in-out
 }
 
-.add-new-spec button:hover,
-.add-new-spec button:active {
+.add-new-spec .add-a-new-specs-link:hover,
+.add-new-spec .add-a-new-specs-link:active {
     opacity: .7;
 }
 
@@ -119,11 +124,12 @@
 .specs-content-layout .specs-content .specs-content-title {
     padding: 0 .5rem .5rem 0;
     font-size: 1.5rem;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
 .specs-content-layout .specs-content .specs-content-description {
-    font-size: .75rem;
+    font-size: .6rem;
     padding-right: 1.7rem;
 
 }
