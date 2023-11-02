@@ -1,7 +1,7 @@
-import SpecsIndex from "./component/specs/Index.jsx";
-import NavBar from "./component/navBar/Index.jsx";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import AddNewSpecs from "./component/specs/addNewSpecs/index.jsx";
+import { Specs } from "./component/specs/Spacs.jsx";
+import { NavBar } from "./component/navBar/NavBar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AddNewSpecs } from "./component/specs/addNewSpecs/AddNewSpecs.jsx";
 import "./App.css";
 
 const Home = () => (
@@ -15,6 +15,7 @@ const Home = () => (
     Home Page
   </div>
 );
+
 const About = () => (
   <div
     style={{
@@ -26,6 +27,7 @@ const About = () => (
     About Page
   </div>
 );
+
 const Blog = () => (
   <div
     style={{
@@ -40,14 +42,14 @@ const Blog = () => (
 
 function App() {
   return (
-    <div className="App">
+    <div className="grid grid-cols-[161px_calc(100%_-161px)] min-w-full min-h-screen bg-[#21213E] font-sans">
       <Router basename={import.meta.env.DEV ? "/" : "/specs/"}>
         <NavBar />
 
-        <div className="pages">
+        <div className="min-w-[calc(100%_-_161px)] h-auto">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/specs" element={<SpecsIndex />} />
+            <Route path="/specs" element={<Specs />} />
             <Route path="/specs/add-a-new-specs" element={<AddNewSpecs />} />
 
             <Route path="/About" element={<About />} />
